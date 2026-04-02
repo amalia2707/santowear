@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Στολες Εργασιας</title>
+  <link rel="stylesheet" href="test.css">
+   <link rel="icon" type="image/jpeg" href="images/imageshijklm/logomau.jpg">
+</head>
+<body>
+
+
+  <header>
+    <h1 data-lang-el="Στολες Εργασιας" data-lang-en="Construction Clothing">Στολες Εργασιας</h1>
+  </header>
+
+  <main>
+    <section class="product-details">
+      <p data-lang-el="Επαγγελματικές στολές για κάθε κλάδο, με δυνατότητα προσαρμογής στο λογότυπό σας."
+         data-lang-en="Professional uniforms for every sector, customizable with your logo">
+         Επαγγελματικές στολές για κάθε κλάδο, με δυνατότητα προσαρμογής στο λογότυπό σας.
+      </p>
+
+      <div class="filter-menu">
+  <button class="filter-btn active" data-category="all">Όλα</button>
+  <button class="filter-btn" data-category="υγειονομικος τομεας">Υγειονομικος Τομεας</button>
+  <button class="filter-btn" data-category="Φορμες Εργασιας">Φορμες Εργασιας</button>
+  <button class="filter-btn" data-category="Γιλεκα Ασφαλειας">Γιλεκα Ασφαλειας</button>
+  <button class="filter-btn" data-category="Αντιανεμικα&Μπουφαν">Αντιανεμικα&Μπουφαν</button>
+  <button class="filter-btn" data-category="Παντελονια">Παντελονια</button>
+  <button class="filter-btn" data-category="Παπουτσια">Παπουτσια</button>
+
+</div>
+
+
+<div class="products-grid">
+
+  <div class="product-card" data-category="υγειονομικος τομεας">
+    <img src="images/imagesnop/NN600.png" alt="Υγειονομικος τομεας" onclick="openModal(productData.ΝΝ600)">
+    <h4>NN600</h4>
+  </div>
+  <div class="product-card" data-category="υγειονομικος τομεας">
+    <img src="images/imagesnop/NN610.png" alt="Υγειονομικος τομεας" onclick="openModal(productData.ΝΝ610)">
+    <h4>NN610</h4>
+  </div>
+  <div class="product-card" data-category="υγειονομικος τομεας">
+    <img src="images/imagesnop/NN500.png" alt="Υγειονομικος τομεας" onclick="openModal(productData.ΝΝ500)">
+    <h4>NN500</h4>
+  </div>
+    <div class="product-card" data-category="υγειονομικος τομεας">
+    <img src="images/imagesnop/NN310.png" alt="Υγειονομικος τομεας" onclick="openModal(productData.ΝΝ310)">
+    <h4>NN310</h4>
+  </div>
+   <div class="product-card" data-category="υγειονομικος τομεας">
+    <img src="images/imagesnop/NN300.png" alt="Υγειονομικος τομεας" onclick="openModal(productData.ΝΝ300)">
+    <h4>NN300</h4>
+  </div>
+  <div class="product-card" data-category="υγειονομικος τομεας">
+    <img src="images/imagesnop/NN200.png" alt="Υγειονομικος τομεας" onclick="openModal(productData.ΝΝ200)">
+    <h4>NN200</h4>
+  </div>
+  <div class="product-card" data-category="υγειονομικος τομεας">
+    <img src="images/imagesbc/care.png" alt="Υγειονομικος τομεας" onclick="openModal(productData.care)">
+    <h4>Care</h4>
+  </div>
+
+  <div class="product-card" data-category="Φορμες Εργασιας">
+    <img src="images/imagesnop/paint.png" alt="Φορμες Εργασιας" onclick="openModal(productData.paint)">
+    <h4>Paint</h4>
+  </div>
+  <div class="product-card" data-category="Φορμες Εργασιας">
+    <img src="images/topbp.png" alt="Φορμες Εργασιας" onclick="openModal(productData.topbp)">
+    <h4>Τop Bib-Pants</h4>
+  </div>
+   <div class="product-card" data-category="Φορμες Εργασιας">
+    <img src="images/Steppe.png" alt="Φορμες Εργασιας" onclick="openModal(productData.Steppe)">
+    <h4>  Steppe</h4>
+  </div>
+  <div class="product-card" data-category="Φορμες Εργασιας">
+    <img src="images/Stone.png" alt="Φορμες Εργασιας" onclick="openModal(productData.Stone)">
+    <h4>  Stone</h4>
+  </div>
+
+  <div class="product-card" data-category="Γιλεκα Ασφαλειας">
+    <img src="images/spark.png" alt="Γιλεκα Ασφαλειας" onclick="openModal(productData.Spark)">
+    <h4>Spark</h4>
+  </div>
+  <div class="product-card" data-category="Γιλεκα Ασφαλειας">
+    <img src="images/imageshijklm/Knoxfield.png" alt="Γιλεκα Ασφαλειας" onclick="openModal(productData.Knoxfield)">
+    <h4>Knoxfield</h4>
+  </div>
+  <div class="product-card" data-category="Γιλεκα Ασφαλειας">
+    <img src="images/reporter.png" alt="Γιλεκα Ασφαλειας" onclick="openModal(productData.reporter)">
+    <h4>Reporter</h4>
+  </div>
+  <div class="product-card" data-category="Αντιανεμικα&Μπουφαν">
+    <img src="images/imageshijklm/itamos.png" alt="Αντιανεμικα&Μπουφαν" onclick="openModal(productData.itamos)">
+    <h4>Itamos</h4>
+  </div>
+  <div class="product-card" data-category="Αντιανεμικα&Μπουφαν">
+    <img src="images/softshell.png" alt="Αντιανεμικα&Μπουφαν" onclick="openModal(productData.softshell)">
+    <h4>Softshell</h4>
+  </div>
+  <div class="product-card" data-category="Αντιανεμικα&Μπουφαν">
+    <img src="images/images1a/52-100-22.png" alt="Αντιανεμικα&Μπουφαν" onclick="openModal(productData.a52)">
+    <h4>52-100-2</h4>
+  </div>
+    <div class="product-card" data-category="Αντιανεμικα&Μπουφαν">
+    <img src="images/imageshijklm/marmati.png" alt="Αντιανεμικα&Μπουφαν" onclick="openModal(productData.marmati)">
+    <h4>Marmati</h4>
+  </div>
+   <div class="product-card" data-category="Παντελονια">
+    <img src="images/images1a/algherop.png" alt="Παντελονια" onclick="openModal(productData.algherop)">
+    <h4>Alghero</h4>
+  </div>
+  <div class="product-card" data-category="Παντελονια">
+    <img src="images/thailand.png" alt="Παντελονια" onclick="openModal(productData.thailand)">
+    <h4>Thailand</h4>
+  </div>
+  <div class="product-card" data-category="Παντελονια">
+    <img src="images/imagesdefg/france.png" alt="Παντελονια" onclick="openModal(productData.france)">
+    <h4>France</h4>
+  </div>
+  <div class="product-card" data-category="Παντελονια">
+    <img src="images/imageshijklm/haven.png" alt="Παντελονια" onclick="openModal(productData.haven)">
+    <h4>Haven</h4>
+  </div>
+  <div class="product-card" data-category="Παντελονια">
+    <img src="images/viper.png" alt="Παντελονια" onclick="openModal(productData.viper)">
+    <h4>Viper</h4>
+  </div>
+  <div class="product-card" data-category="Παντελονια">
+    <img src="images/welder.png" alt="Παντελονια" onclick="openModal(productData.welder)">
+    <h4>Welder</h4>
+  </div>
+  <div class="product-card" data-category="Παπουτσια">
+    <img src="images/robusta.png" alt="Παπουτσια" onclick="openModal(productData.robusta)">
+    <h4>Robusta</h4>
+  </div>
+  <div class="product-card" data-category="Παπουτσια">
+    <img src="images/Safe Mid.png" alt="Παπουτσια" onclick="openModal(productData.safem)">
+    <h4>Safe Mid</h4>
+  </div>
+  <div class="product-card" data-category="Παπουτσια">
+    <img src="images/imagesbc/bluefox.png" alt="Παπουτσια" onclick="openModal(productData.bluefox)">
+    <h4>Bluefox S3</h4>
+  </div>
+    <div class="product-card" data-category="Παπουτσια">
+    <img src="images/images1a/acifort.png" alt="Παπουτσια" onclick="openModal(productData.acifort)">
+    <h4>Dunlop Acifort</h4>
+  </div>
+  <div class="product-card" data-category="Παπουτσια">
+    <img src="images/imagesbc/blizzard.png" alt="Παπουτσια" onclick="openModal(productData.blizzard)">
+    <h4>Dunlop Blizzard</h4>
+  </div>
+
+  <!-- Προσθετουμε -->
+   <div id="productModal" class="modal" onclick="closeOutside(event)">
+  <div class="modal-content">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <img id="modalImage" src="" alt="">
+    <h4 id="modalTitle"></h4>
+    <p><strong>Σύνθεση:</strong> <span id="modalComposition"></span></p>
+    <p><strong>Λεπτομέρειες:</strong></p>
+    <ul id="modalDetails"></ul>
+    <div class="product-colors">
+      <p><strong>Διαθέσιμα χρώματα:</strong></p>
+      <div class="color-options" id="modalColors"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+   const productData = {
+    blizzard: {
+      title: "Dunlop Blizzard",
+      image: "images/imagesbc/blizzard.png",
+      composition: "PVC και γούνινη επένδυση",
+      details: [
+        "100% αδιαβροχία",
+        "Διαπνέουσα γούνινη επένδυση για μόνωση απο το κρύο, μέχρι -15 °C ",
+        "Αδιάβροχο ρυθμιζόμενο κορδόνι στο άνω μέρος",
+        "Εύκολη τοποθέτηση και τέλεια εφαρμογή",
+      ],
+      colors: [
+          { color:"#88B675", title:"Πρασινο"},
+      ]
+    },
+    acifort: {
+      title: "Dunlop Acifort",
+      image: "images/images1a/acifort.png",
+      composition: "συνδυασμός νιτρίλιου και συνθετικού υλικού",
+      details: [
+        "Μεταλλικό προστατευτικό δαχτύλων για προστασία από την πτώση αντικειμένων και μεταλλική προστασία στην ενδιάμεση σόλα για προστασία από την διάτρηση",
+        "Αντιστατικές ιδιότητες ",
+        "Υφασμάτινη γκρι φόδρα, ανθεκτική στην τριβή, για μεγαλύτερη άνεση και υγιεινή",
+        "Ο σχεδιασμός της σόλας επιτρέπει τον εύκολο καθαρισμό της σε σκληρά περιβάλλοντα εργασίας",
+      ],
+      colors: [
+          { color:"#000000", title:"Μαυρο"},
+      ]
+    },
+    bluefox: {
+      title: "Bluefox S3",
+      image: "images/imagesbc/bluefox.png",
+      composition: "Δέρμα προσώπου υδρόφοβο",
+      details: [
+        "Εργονομικό και ελαφρύ πολυκαρβονικό προστατευτικό δαχτύλων προσφέρει θερμική μόνωση μεταξύ -10°C έως 40°C",
+        "Ένθετο προστατευτικό σόλας κατά της διάτρησης από ανοξείδωτο χάλυβα ",
+        "Πολυουρεθάνη διπλάσιας πυκνότητας (PU2D) για μεγαλύτερη αντοχή και άνεση",
+        "Η αντιολισθητική σόλα (SRC) διπλάσιας πολυουρεθάνης παρέχει απορρόφηση κραδασμών στη φτέρνα και δεν επιτρέπει την εισχώρηση καυσίμων.",
+        "Αντιστατικό μποτάκι με τρισδιάστατη απορροφητική φόδρα προσφέροντας μεγαλύτερη άνεση και υγιεινή."
+      ],
+      colors: [
+          { color:"#000000", title:"Μαυρο"},
+      ]
+    },
+    safem: {
+      title: "Safe Mid",
+      image: "images/Safe Mid.png",
+      composition: "Υδροαπωθητικό δέρμα και ανθεκτικό στην τριβή ύφασμα",
+      details: [
+        "Μεταλλικό προστατευτικό δαχτύλων και μεταλλικό προστατευτικό πέλματος",
+        "Τρισδιάστατη (3D) απορροφητική φόδρα για μεγαλύτερη άνεση και υγιεινή ",
+        "Ειδικά διαμορφωμένη σόλα πολυουρεθάνης DUO-PU διπλής πυκνότητας, εξαιρετικά ανθεκτική σε τριβή και  ολίσθηση (SRC)",
+        "Ενισχυμένη αφρώδης γλώσσα εξ ολοκλήρου ενωμένη με το κύριο μέρος του παπουτσιού για επιπλέον προστασία",
+        "Μεταλλικά κλιπ"
+      ],
+      colors: [
+          { color:"#000000", title:"Μαυρο"},
+      ]
+    },
+    robusta: {
+      title: "Robusta",
+      image: "images/robusta.png",
+      composition: "δέρμα βοοειδών υδρόφοβο και φόδρα από πολυαμίδιο",
+      details: [
+        "Συνθετικό προστατευτικό δαχτύλων",
+        "Διαπνέουσα φόδρα από πολυαμίδιο ανθεκτική στην τριβή με υπο-αλλεργικές ιδιότητες",
+        "Aνθεκτικό στα χτυπήματα και στη διάτρηση (P)",
+        " Eξωτερική αντιολισθητική σόλα (SRC) από ελαστικό και νιτρίλιo",
+        "Aντοχή σε 18.000 volts σε 60 Hertz για ένα λεπτό περίπου",
+        "Εξαιρετική αντοχή στις υψηλές θερμοκρασίες, στους 300°C για τουλάχιστον 1 λεπτό (HRO)"
+      ],
+      colors: [
+          { color:"#000000", title:"Μαυρο"},
+      ]
+    },
+    viper: {
+      title: "Viper",
+      image: "images/viper.png",
+      composition: "65% Πολυέστερ - 35% Βαμβάκι, 235grs",
+      details: [
+        "Ripstop ύφανση για μεγάλη αντοχή στη διάσχιση",
+        "Knee Pad pockets ειδικός σχεδιασμός στα γόνατα με υποδοχή τσέπη για επιγονατίδες και με αντανακλαστικό σιρίτι. (Οι επιγονατίδες δεν περιλαμβάνονται)",
+        "Πολλές λειτουργικές τσέπες & multiple cargo σε θέση εύκολης πρόσβασης προσφέροντας απόλυτη ελευθερία κινήσεων & άνεση",
+        "Αντανακλαστικές λεπτομέρειες στο πίσω μέρος στα γόνατα για την ασφάλεια του χρήστη",
+        "YKK φερμουάρ",
+        "Μεγέθη: ΧS-3XL"
+      ],
+      colors: [
+          { color:"#000000", title:"Μαυρο"},
+      ]
+    },
+    haven: {
+      title: "Haven",
+      image: "images/imageshijklm/haven.png",
+      composition: "65% Πολυέστερ - 35% Βαμβάκι, 240grs",
+      details: [
+        "Κλείσιμο με φερμουάρ και κουμπί",
+        "Ελαστική μέση με φαρδιά θηλύκια",
+        "2 ιταλικές τσέπες μπροστά ",
+        "2 τσέπες στο πλάι με velcro",
+        "1 πίσω τσέπη με velcro",
+        "Ίσιο τελείωμα"
+      ],
+      colors: [
+          {color:"#022658", title:"Μπλε Ναυτικου"},
+          { color:"#000000", title:"Μαυρο"},
+          {color:"#A1A1A1", title:"Γκρι"},
+      ]
+    },
+    france: {
+      title: "France",
+      image: "images/imaesdefg/france.png",
+      composition: ": 265g/m², 98% Βαμβάκι - 2% Ελαστάν, Προπλυμένο και ελαστικό ύφασμα",
+      details: [
+        "Ελαστική μέση",
+        " 2 πίσω τσέπες",
+        "2 ιταλικές τσέπες ",
+        "2 τσέπες στο πλάι με κουμπιά και 1 με φερμουάρ",
+      ],
+      colors: [
+          {color:"#022658", title:"Μπλε Ναυτικου"},
+          { color:"#000000", title:"Μαυρο"},
+          {color:"#A1A1A1", title:"Γκρι"},
+      ]
+    },
+    thailand: {
+      title: "Thailand",
+      image: "images/thailand.png",
+      composition: "225g/m², 98% Βαμβάκι - 2% Ελαστάν, Προπλυμένο και ελαστικό ύφασμα",
+      details: [
+        "Ελαστική μέση",
+        "2 τσέπες μπροστά",
+        " 2 τσέπες στο πλάι με velcro",
+        "1 πίσω τσέπη με velcro",
+      ],
+      colors: [
+          {color:"#022658", title:"Μπλε Ναυτικου"},
+          {color:"#596659", title:"Πρασινο Στρατου"},
+          { color:"#000000", title:"Μαυρο"},
+          {color:"#A1A1A1", title:"Γκρι"},
+      ]
+    },
+    algherop: {
+      title: "Alghero",
+      image: "images/images1a/algherop.png",
+      composition: "180g/m², 94% Πολυέστερ - 2% Ελαστάν",
+      details: [
+        "Ελαστική μέση",
+        "Κρυφό φερμουάρ",
+        "2 τσέπες μπροστά με φερμουάρ",
+        " 2 τσέπες στο πλάι με φερμουάρ",
+        "1 πίσω τσέπη με φερμουάρ",
+        "Μεγάλα και φαρδιά θηλύκια για τη ζώνη",
+      ],
+      colors: [
+          {color:"#022658", title:"Μπλε Ναυτικου"},
+          {color:"#596659", title:"Πρασινο Στρατου"},
+          { color:"#000000", title:"Μαυρο"},
+          {color:"#A1A1A1", title:"Γκρι"},
+      ]
+    },
+    marmati: {
+      title: "Marmati",
+      image: "images/imageshijklm/marmati.png",
+      composition: "Polyester pongee / PVC",
+      details: [
+        "Αδιάβροχο και αντιανεμικό με μονωμένη επένδυση για άνεση και ευκινησία",
+        "Ψηλός γιακάς για απόλυτη άνεση και προστασία του αυχένα από το κρύο",
+        "Αντανακλαστικό σιρίτι στα μανίκια",
+        "Διπλές αντανακλαστικές ταινίες γύρω από τη μέση που προσφέρει αυξημένη ορατότητα και ασφάλεια όλες τις ώρες",
+        "Αναδιπλούμενη ενσωματωμένη κουκούλα στον γιακά που το μέγεθός της ρυθμίζεται με κορδόν",
+        "Πολλές λειτουργικές τσέπες σε θέση εύκολης πρόσβασης προσφέροντας απόλυτη ελευθερία κινήσεων",
+        "Μανσέτες με Velcro στα μανίκια",
+        "Ελαφρύ και μαλακό υλικό που σας βοηθά να νιώθετε άνετα κατά την πολύωρη εργασία σας"
+      ],
+      colors: [
+          {color:"#022658", title:"Μπλε Ναυτικου"},
+      ]
+    },
+    a52: {
+      title: "52-100-2",
+      image: "images/images1a/52-100-22.png",
+      composition: " 245gsm | 80% cot - 19% pol - 1%antistatic",
+      details: [
+        " Βραδυφλεγές τζάκετ με δύο τσέπες στη περιοχή του στήθους που κλείνουν με καπάκι και βραδυφλεγές velcro",
+        " Δύο τσέπες φιλέτο χαμηλά στη μέση.",
+        " Κλείσιμο εμπρός με πατιλέτα και κρυφά βραδυφλεγή τρουκ",
+        " Ασημί βραδυφλεγής αντανακλαστική ταινία 5cm στα μανίκια και περιμετρικά στο στήθος και στη πλάτη",
+        "Διπλές ραφές από βραδυφλεγείς ίνες Aramid με εξαιρετική μηχανική αντοχή",
+        "Μανσέτες ασφαλείας που κλείνουν με βραδυφλεγές velcro.",
+        "Εσωτερικό λάστιχο στα πλαϊνά μέρη της μέσης.",
+        "Βραδυφλεγές φινίρισμα,"
+      ],
+      colors: [
+          {color:"#022658", title:"Μπλε Ναυτικου"},
+      ]
+    },
+    softshell: {
+      title: "Softshell",
+      image: "images/softshell.png",
+      composition: " 94% πολυέστερ/6% ελαστάνη",
+      details: [
+        "Μεμβράνη TPU αδιάβροχη 5000mm και αντιανεμικό softshell 2800mvp",
+        "Προσφέρει υψηλά επίπεδα διαπνοής",
+        "Ψηλός γιακάς για προστασία του αυχένα από το κρύο",
+        "Αποσπώμενη κουκούλα με ρυθμιζόμενα κορδόνια",
+        "Μανσέτες ρυθμιζόμενες με velcro που εμποδίζουν τον κρύο αέρα",
+        "Κορδόνι περίσφιξης στη μέση για καλύτερη εφαρμογή και διατήρηση της ζέστης",
+        "Αδιάβροχη τσέπη στο μανίκι, τσέπη στο στήθος & εσωτερικές τσέπες",
+        "Τσέπες εύκολης πρόσβασης στα πλάγια με fleece εσωτερικά"
+      ],
+      colors: [
+       {color:"#000000", title:"Μαυρο"},
+          {color:"#022658", title:"Μπλε Ναυτικου"},
+
+
+      ]
+    },
+    itamos: {
+      title: "Itamos",
+      image: "images/imageshijklm/itamos.png",
+      composition: " 94% πολυέστερ/6% ελαστάνη",
+      details: [
+        "Μεμβράνη TPU αδιάβροχη 5000mm και αντιανεμικό softshell 2800mvp",
+        "Προσφέρει υψηλά επίπεδα διαπνοής",
+        "Ψηλός γιακάς για προστασία του αυχένα από το κρύο",
+        "Αποσπώμενη κουκούλα με ρυθμιζόμενα κορδόνια",
+        "Μανσέτες ρυθμιζόμενες με velcro που εμποδίζουν τον κρύο αέρα",
+        "Κορδόνι περίσφιξης στη μέση για καλύτερη εφαρμογή και διατήρηση της ζέστης",
+        "Τσέπη εξωτερικά στο στήθος",
+        "Εσωτερικές τσέπες"
+      ],
+      colors: [
+       {color:"#000000", title:"Μαυρο"},
+          {color:"#022658", title:"Μπλε Ναυτικου"},
+
+
+      ]
+    },
+    reporter: {
+      title: "Reporter",
+      image: "images/reporter.png",
+      composition: "80% Πολυέστερ 20% Βαμβάκι",
+      details: [
+        "Ψηλός γιακάς για απόλυτη άνεση και προστασία του αυχένα από το κρύο",
+        "Αντανακλαστικό σιρίτι στις τσέπες",
+        "Πολλές λειτουργικές τσέπες σε θέσεις εύκολης πρόσβασης για απόλυτη ελευθερία κινήσεων",
+        "Σχεδιασμός με λάστιχο εσωτερικά στη περιοχή της μασχάλης για απόλυτη εφαρμογή .",
+        "Ίσια γραμμή με πιο μακρύ το πίσω μέρος της πλάτης, σχεδιασμένο ώστε το μήκος να καλύπτει τη μέση σας για τη καλύτερη εφαρμογή και προστασία της μέσης, πλάτης από το κρύο τον αέρα",
+        "Ελαφρύ και μαλακό υλικό που σας βοηθά να νιώθετε άνετα κατά τη πολύωρη εργασία σας",
+        "Για την ένδυση του προσωπικού σας, υπάρχουν σημεία στήθος & πλάτη που μπορούν να τυπωθούν ή να κεντηθούν με το λογότυπο σας"
+      ],
+      colors: [
+       {color:"#000000", title:"Μαυρο"},
+        {color:"#ABACAB", title:"Γκρι"},
+          {color:"#022658", title:"Μπλε Ναυτικου"},
+
+
+      ]
+    },
+    Spark: {
+      title: "Spark",
+      image: "images/spark.png",
+      composition: "100% Πολυέστερ",
+      details: [
+        "Λαιμόκοψη V",
+        "Κλείσιμο μπροστά με velcro",
+        "2 ανακλαστικές ταινίες περιμετρικά.",
+        "Διάσταση: 69 x 59εκ. .",
+      ],
+      colors: [
+        {color:"#FE9900", title:"Πορτοκαλι"},
+        {color:"#FDE517", title:"Κιτρινο"},
+
+      ]
+    },
+    Knoxfield: {
+      title: "Knoxfield",
+      image: "images/imageshijklm/Knoxfield.png",
+      composition: "100% Πολυέστερ",
+      details: [
+        "Γιλέκο υψηλής ευκρίνειας",
+        " Κλείνει μπροστά με φερμουάρ",
+        "2 ανακλαστικές ταινίες πάχους 5cm περιμετρικά στην μέση και τους ώμους.",
+        " Δύο τσέπες στην μέση. .",
+      ],
+      colors: [
+        {color:"#FE9900", title:"Πορτοκαλι"},
+        {color:"#FDE517", title:"Κιτρινο"},
+        {color:"#E4080A", title:"Κοκκινο"},
+
+      ]
+    },
+    Stone: {
+      title: "Stone",
+      image: "images/Stone.png",
+      composition: "Ελεγμένο έναντι επιβλαβών ουσιών OEKO-TEX®- Standard 100",
+      details: [
+        "Knee pocket design ειδικός σχεδιασμός στα γόνατα με υποδοχή για επιγονατίδες (δεν περιλαμβάνονται).",
+        "Πολλές λειτουργικές τσέπες, τσέπες στο στήθος, τσέπες στο πίσω μέρος και τσέπες στα μπατζάκια σε θέση εύκολης πρόσβασης προσφέροντας απόλυτη ελευθερία κινήσεων & λειτουργικότητα",
+        "Τριπλές ραφές",
+        "Ενίσχυση στην περιοχή του καβάλου για μεγαλύτερη αντοχή",
+        "Εlastic back design: Φέρει λάστιχο στη πλάτη στο σημείο ένωσης τιράντας με το παντελόνι, για άψογη εφαρμογή, άνεση & ευελιξία κινήσεων κατά την πολύωρη εργασία",
+        "Ρυθμιζόμενες τιράντες με εύκολο κούμπωμα κλιπ",
+        "Για την ένδυση του προσωπικού σας, στην τσέπη στο στήθος δυνατότητα τοποθέτησης λογοτύπου της εταιρείας σας",
+        "Υλικό κατασκευής: 100% βαμβάκι",
+        "Βάρος: 240gr/m²",
+        "Μεγέθη: XS-5XL"
+      ],
+      colors: [
+        {color:"#000000", title:"Μαυρο"},
+        {color:"#ABACAB", title:"Γκρι"},
+
+      ]
+    },
+    Steppe: {
+      title: "Steppe",
+      image: "images/Steppe.png",
+      composition: "ΕΛΟΤ EN 17353:2020 Τύπος	B2",
+      details: [
+        "Αντανακλαστικές ταινίες σε ώμους, μανίκια και μπατζάκια.",
+        "Πιστοποίηση OekoTex® έναντι επιβλαβών ουσιών",
+        "Κατασκευασμένη από εξαιρετικής ποιότητας βαμβακερό ύφασμα",
+        "Λάστιχο «φυσαρμόνικα» στην περιοχή της μέσης για ευελιξία κινήσεων",
+        "Θηλάκι πάνω από την τσέπη στήθους",
+        "Επωμίδες στους ώμους για τοποθέτηση διακριτικών σημαίας, συμβόλων",
+        "Ειδική θέση για τη τοποθέτηση Velcro rank tag",
+        "Δύο 3D τσέπες στήθους",
+        "Τσέπη στο μανίκι",
+        "Πολλές λειτουργικές τσέπες στη μέση, στο πίσω μέρος και στο μηρό"
+      ],
+      colors: [
+        {color:"#022658", title:"Μπλε Ναυτικου"},
+        {color:"#ffffff", title:"Ασπρο"},
+        {color:"#FE9900", title:"Πορτοκαλι"},
+
+      ]
+    },
+    topbp: {
+      title: "Top Bib-Pants",
+      image: "images/topbp.png",
+      composition: "245gsm | 65% pol - 35% cot",
+      details: [
+        " Τιράντα εργασίας με ρυθμιζόμενους ιμάντες που κλείνουν με πλαστικά κλιψάκια.",
+        " Κλείνει στο καβάλο με φερμουάρ υψηλής αντοχής ",
+        "Μία πλαϊνή τσέπη στον αριστερό μηρό που κλείνει με καπάκι και velcro",
+        "Μία τσέπη μπροστά στο δεξιό μηρό που κλείνει με καπάκι και velcro",
+        "Δύο τσέπες λοξές μπροστά",
+        "Μια τσέπη με καπάκι πίσω δεξιά και μία τσέπη χωρίς καπάκι πίσω αριστερά",
+        "Μία τσέπη εργαλείων στο δεξιό μηρό. Μία τσέπη στο στήθος με καπάκι και velcro"
+      ],
+      colors: [
+        {color:"#ABACAB", title:"Γκρι"},
+        {color:"#2F53C7", title:"Μπλε Ρουα"},
+
+      ]
+    },
+    paint: {
+      title: "Paint",
+      image: "images/imagesnop/paint.png",
+      composition: "65% Πολυέστερ - 35% Βαμβάκι, 200g/m²",
+      details: [
+        " Φόρμα εργασίας με στηθούρι και τιράντες",
+        "λάστιχο στο πίσω μέρος ",
+        "Κλείσιμο με φερμουάρ στον καβάλο",
+        " Πλαϊνά κουμπιά στη μέση ",
+        "2 μεγάλες τσέπες μπροστά, 1 τσέπη με φερμουάρ στο στηθούρι, 1 τσέπη στο πλάι για το μέτρο και 1 πίσω τσέπη"
+      ],
+      colors: [
+      {color:"#022658", title:"Μπλε Ναυτικου"},
+       { color:"#000000", title:"Μαυρο"},
+        {color:"#ABACAB", title:"Γκρι"},
+        {color:"#2F53C7", title:"Μπλε Ρουα"},
+
+      ]
+    },
+     care: {
+      title: "Care",
+      image: "images/imagesbc/care.png",
+      composition: "65/35 poly/cotton 165gsm",
+      details: [
+        "Μπλούζα ιατρική ",
+        "Λαιμόκοψη V",
+        "Δύο τσέπες στα πλαϊνά",
+        "Μία τσέπη στο στήθος",
+        "Σκίσιμο στα πλαϊνά"
+      ],
+      colors: [
+      {color:"#022658", title:"Μπλε Ναυτικου"},
+       { color:"#000000", title:"Μαυρο"},
+        {color:"#ffffff", title:"Ασπρο"},
+
+      ]
+    },
+     ΝΝ200: {
+      title: "ΝΝ200",
+      image: "images/imagesnop/NN200.png",
+      composition: "42% Πολυέστερ - 33% Ανακυκλωμένο πολυέστερ - 19% Βισκόζη - 6% Ελαστάν, 210g/m²",
+      details: [
+        "Ανδρική ελαστική μπλούζα νοσηλευτικής ",
+        "Λαιμόκοψη V",
+        " Κοντά μανίκια ",
+        "Τσέπη αριστερά στο στήθος ",
+        " Πένσες στην πλάτη ",
+        "Μοντέρνα γραμμή",
+        "Ανθεκτικό",
+        " Διαπνέον",
+        " Ελαστικό"
+      ],
+      colors: [
+      {color:"#022658", title:"Μπλε Ναυτικου"},
+       { color:"#000000", title:"Μαυρο"},
+        {color:"#908E8E", title:"Γκρι"},
+         {color:"#77ACEB", title:"Μπλε"},
+         {color:"#166C45", title:"Πρασινο"},
+
+      ]
+    },
+    ΝΝ300: {
+      title: "ΝΝ300",
+      image: "images/imagesnop/NN300.png",
+      composition: "42% Πολυέστερ - 33% Ανακυκλωμένο πολυέστερ - 19% Βισκόζη - 6% Ελαστάν, 210g/m²",
+      details: [
+        "Γυναικεία ελαστική μπλούζα νοσηλευτικής ",
+        "Λαιμόκοψη V",
+        " Κοντά μανίκια ",
+        "Τσέπη αριστερά στο στήθος ",
+        " Πένσες στην πλάτη ",
+        "Μοντέρνα γραμμή",
+        "Ανθεκτικό",
+        " Διαπνέον",
+        " Ελαστικό"
+      ],
+      colors: [
+      {color:"#022658", title:"Μπλε Ναυτικου"},
+       { color:"#000000", title:"Μαυρο"},
+        {color:"#908E8E", title:"Γκρι"},
+         {color:"#77ACEB", title:"Μπλε"},
+         {color:"#166C45", title:"Πρασινο"},
+          {color:"#E498A4", title:"Ροζ"},
+
+      ]
+    },
+    ΝΝ310: {
+      title: "ΝΝ310",
+      image: "images/imagesnop/NN310.png",
+      composition: "42% Πολυέστερ - 33% Ανακυκλωμένο πολυέστερ - 19% Βισκόζη - 6% Ελαστάν, 210g/m²",
+      details: [
+        "Γυναικεία ελαστική μπλούζα νοσηλευτικής ",
+        "Λαιμόκοψη V",
+        " Κοντά μανίκια ",
+        "2 τσέπες μπροστά  ",
+        " Πένσες στην πλάτη ",
+        "Μοντέρνα γραμμή",
+        "Ανθεκτικό",
+        " Διαπνέον",
+        " Ελαστικό"
+      ],
+      colors: [
+      {color:"#022658", title:"Μπλε Ναυτικου"},
+       { color:"#000000", title:"Μαυρο"},
+        {color:"#908E8E", title:"Γκρι"},
+         {color:"#77ACEB", title:"Μπλε"},
+         {color:"#166C45", title:"Πρασινο"},
+          {color:"#E498A4", title:"Ροζ"},
+
+      ]
+    },
+    ΝΝ500: {
+      title: "ΝΝ500",
+      image: "images/imagesnop/NN500.png",
+      composition: "42% Πολυέστερ - 33% Ανακυκλωμένο πολυέστερ - 19% Βισκόζη - 6% Ελαστάν, 210g/m²",
+      details: [
+        "  Ανδρικό ελαστικό cargo παντελόνι νοσηλευτικής ",
+        "Ελαστική μέση",
+        " Κλείσιμο με κουμπί και πλακέ δίχρωμα κορδόνια ",
+        " 2 μπροστινές ιταλικές τσέπες, 1 τσέπη στο πλάι αριστερά με φερμουάρ, 1 διπλή τσέπη ανοιχτή δεξιά και 1 ανοιχτή πίσω τσέπη δεξιά ",
+        " Ίσια γραμμή",
+        "Ανθεκτικό",
+        " Διαπνέον",
+        " Ελαστικό"
+      ],
+      colors: [
+      {color:"#022658", title:"Μπλε Ναυτικου"},
+       { color:"#000000", title:"Μαυρο"},
+        {color:"#908E8E", title:"Γκρι"},
+         {color:"#77ACEB", title:"Μπλε"},
+         {color:"#166C45", title:"Πρασινο"},
+
+      ]
+    },
+     ΝΝ610: {
+      title: "ΝΝ610",
+      image: "images/imagesnop/NN610.png",
+      composition: "42% Πολυέστερ - 33% Ανακυκλωμένο πολυέστερ - 19% Βισκόζη - 6% Ελαστάν, 210g/m²",
+      details: [
+        " Γυναικείο ελαστικό παντελόνι νοσηλευτικής Jogger ",
+        "Ελαστική μέση με πλακέ δίχρωμα κορδόνια",
+        "Λάστιχο στους αστραγάλους ",
+        " 2 τσέπες μπροστά, 2 πίσω και 1 στο πλάι με φερμουάρ ",
+        " Ίσια γραμμή",
+        "Ανθεκτικό",
+        " Διαπνέον",
+        " Ελαστικό"
+      ],
+      colors: [
+      {color:"#022658", title:"Μπλε Ναυτικου"},
+       { color:"#000000", title:"Μαυρο"},
+        {color:"#908E8E", title:"Γκρι"},
+        {color:"#E498A4", title:"Ροζ"},
+         {color:"#77ACEB", title:"Μπλε"},
+         {color:"#166C45", title:"Πρασινο"},
+
+      ]
+    },
+    ΝΝ600: {
+      title: "ΝΝ600",
+      image: "images/imagesnop/NN600.png",
+      composition: "42% Πολυέστερ - 33% Ανακυκλωμένο πολυέστερ - 19% Βισκόζη - 6% Ελαστάν, 210g/m²",
+      details: [
+        "Γυναικείο ελαστικό cargo παντελόνι νοσηλευτικής Onna",
+        "Λάστιχο πίσω στη μέση",
+        "Πλακέ δίχρωμα κορδόνια",
+        "2 μπροστινές ιταλικές τσέπες, 1 τσέπη στο πλάι αριστερά με φερμουάρ, 1 διπλή τσέπη ανοιχτή δεξιά και 1 ανοιχτή πίσω τσέπη δεξιά",
+        " Ίσια γραμμή",
+        "Ανθεκτικό",
+        " Διαπνέον",
+        " Ελαστικό"
+      ],
+      colors: [
+      {color:"#022658", title:"Μπλε Ναυτικου"},
+       { color:"#000000", title:"Μαυρο"},
+        {color:"#908E8E", title:"Γκρι"},
+        {color:"#E498A4", title:"Ροζ"},
+         {color:"#77ACEB", title:"Μπλε"},
+         {color:"#166C45", title:"Πρασινο"},
+
+      ]
+    },
+  }
+  function openModal(product) {
+    document.getElementById("modalTitle").innerText = product.title;
+    document.getElementById("modalImage").src = product.image;
+    document.getElementById("modalComposition").innerText = product.composition;
+
+    // Λεπτομέρειες
+    const detailsList = document.getElementById("modalDetails");
+    detailsList.innerHTML = "";
+    product.details.forEach(d => {
+      let li = document.createElement("li");
+      li.textContent = d;
+      detailsList.appendChild(li);
+    });
+
+    // Χρώματα
+    const colorsDiv = document.getElementById("modalColors");
+    colorsDiv.innerHTML = "";
+    product.colors.forEach(c => {
+      let span = document.createElement("span");
+      span.classList.add("color-circle");
+      span.style.backgroundColor = c.color;
+      span.title = c.title;
+      colorsDiv.appendChild(span);
+    });
+
+    document.getElementById("productModal").style.display = "flex";
+  }
+
+  // Κλείσιμο modal
+  function closeModal() {
+    document.getElementById("productModal").style.display = "none";
+  }
+
+  // Κλείσιμο αν πατήσεις έξω
+  function closeOutside(event) {
+    const modal = document.getElementById("productModal");
+    const content = document.querySelector(".modal-content");
+    if (!content.contains(event.target)) {
+      closeModal();
+    }
+  }
+</script>
+
+
+</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© Από το 1998 με αγάπη</p>
+  </footer>
+
+  <script src="test.js"></script> 
+
+   
+</body>
+
+<script>
+  const filterButtons = document.querySelectorAll(".filter-btn");
+  const products = document.querySelectorAll(".product-card");
+
+  filterButtons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      // Αφαιρούμε το active από όλα
+      filterButtons.forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+
+      const category = btn.getAttribute("data-category");
+
+      products.forEach(product => {
+        if (category === "all" || product.getAttribute("data-category") === category) {
+          product.style.display = "block";
+        } else {
+          product.style.display = "none";
+        }
+      });
+    });
+  });
+</script>
+</html>
